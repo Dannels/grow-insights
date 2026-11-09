@@ -1,0 +1,17 @@
+{
+ "version": "3f27e62bc748",
+ "seed": 20261109,
+ "through": "2026-11-08",
+ "tables": {
+  "orders": 167823,
+  "order_lines": 290136,
+  "customers": 58320,
+  "products": 29,
+  "channels": 5,
+  "promotions": 6,
+  "subscriptions": 8353,
+  "channel_costs": 398,
+  "marketing_spend": 140,
+  "inventory_weekly": 4136
+ }
+}
