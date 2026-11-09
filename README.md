@@ -39,8 +39,8 @@ Then open http://localhost:8765. Opening `index.html` directly from disk won't w
 `file://` fetches of the data files.
 
 ## Deploy
-Any static host. Netlify: connect the repo (publish dir `site`, no build command), or drag the `site/` folder onto
-app.netlify.com/drop. GitHub Pages: serve the `site/` folder.
+Every push to `main` runs the leak check and publishes `site/` to GitHub Pages (`.github/workflows/pages.yml`).
+Any other static host works too: Netlify can use `netlify.toml` (publish dir `site`, no build command).
 
 ## Planted stories (what the findings should detect)
 1. SPRING25 (Apr 14–27 2025): orders roughly doubled, margin fell, and the customers it brought rarely returned.
